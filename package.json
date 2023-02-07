@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server": "json-server server.json -p 3333 -w -d 500",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
@@ -16,8 +17,10 @@
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.1",
     "styled": "^1.0.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "zod": "^3.20.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
